@@ -9,6 +9,13 @@ import com.netflix.zuul.context.RequestContext;
 /**
  * Created by WD42700 on 2018/9/5.
  */
+
+/**
+ *
+ * spring cloud-zuul的Filter详解
+ * https://blog.csdn.net/liuchuanhong1/article/details/62236793
+ *
+ */
 public class AccessUserNameFilter extends ZuulFilter {
     @Override
     public Object run() {
